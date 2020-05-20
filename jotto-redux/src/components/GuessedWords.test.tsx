@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow, ShallowWrapper } from 'enzyme';
 
 import GuessedWords, { Props } from './GuessedWords';
-import { findByTestAttr } from '../test/testUtils';
+import { findByTestAttr } from '../../test/testUtils';
 
 const defaultProps: Props = {
   guessedWords: [{ guessedWord: 'train', letterMatchCount: 3 }],
