@@ -1,7 +1,7 @@
 import React from 'react';
 
-import GuessedWords from './GuessedWords';
-import Congrats from './Congrats';
+import GuessedWords from './components/GuessedWords';
+import Congrats from './components/Congrats';
 
 function App() {
   return (
