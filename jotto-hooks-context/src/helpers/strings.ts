@@ -1,6 +1,6 @@
-type LanguageCode = 'en' | 'emoji' | 'mermish';
+export type LanguageCode = 'en' | 'emoji' | 'mermish';
 
-type StringKey =
+export type StringKey =
   | 'congrats'
   | 'submit'
   | 'guessPrompt'
